@@ -7,6 +7,7 @@ module.exports = {
                 root: ["./src"],
                 alias: {
                     navigation: "./src/components/navigation",
+                    themes: "./src/assets/theme",
                 },
                 extensions: [
                     ".ios.js",
