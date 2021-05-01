@@ -15,6 +15,9 @@ const theme: Theme = {
             fontFamily: "Montserrat",
         },
     },
+    colors: {
+        darkBg: "#0F0F0F",
+    },
 };
 
 export * from "../../@types/theme";
