@@ -1,10 +1,6 @@
 # **React Native Starter Kit** ⚛
 
-[RNELogo]: https://reactnativeelements.com/img/logo.png "React Native Elements"
-
 A react native starter kit build with [React Native Elements](https://reactnativeelements.com/)
-
-![react-native-elements-logo][RNELogo]
 
 > ## Table of content
 
