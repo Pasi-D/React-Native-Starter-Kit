@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
 # Make a copy of .env.dist
-cp .env.dist .env
-
 echo "Updating version name"
 echo " - Version Name : $MAJOR_VERSION.$MINOR_VERSION.$PATCH_VERSION-$PRE_RELEASE"
+
+cd ${APPCENTER_SOURCE_DIRECTORY}
+
+cp .env.dist .env
 
 # Replace environment variables
 sed -i 's/MAJOR_VERSION=.*/MAJOR_VERSION=$MAJOR_VERSION/' .env
