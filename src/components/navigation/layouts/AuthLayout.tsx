@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import { RootStackNavigator } from "navigation/routes";
+import { RootStackNavigator } from "navigation/navigators";
 
 interface IAuthLayoutProps {}
 
