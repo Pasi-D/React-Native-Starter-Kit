@@ -8,10 +8,8 @@ cd ${APPCENTER_SOURCE_DIRECTORY}
 
 cp .env.dist .env
 
-envFile=$APPCENTER_SOURCE_DIRECTORY/.env
-
 # Replace environment variables
-sed -i 's/MAJOR_VERSION=.*/MAJOR_VERSION=$MAJOR_VERSION/' $envFile
-sed -i 's/MINOR_VERSION=.*/MINOR_VERSION=$MINOR_VERSION/' $envFile
-sed -i 's/PATCH_VERSION=.*/PATCH_VERSION=$PATCH_VERSION/' $envFile
-sed -i 's/PRE_RELEASE=.*/PRE_RELEASE=$PRE_RELEASE/' $envFile
+sed -i '' 's/MAJOR_VERSION=.*/MAJOR_VERSION=$MAJOR_VERSION/' .env
+sed -i '' 's/MINOR_VERSION=.*/MINOR_VERSION=$MINOR_VERSION/' .env
+sed -i '' 's/PATCH_VERSION=.*/PATCH_VERSION=$PATCH_VERSION/' .env
+sed -i '' 's/PRE_RELEASE=.*/PRE_RELEASE=$PRE_RELEASE/' .env
