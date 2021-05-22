@@ -1,4 +1,4 @@
-# #!/usr/bin/env bash
+#!/usr/bin/env bash
 
 # Make a copy of .env.dist
 cp .env.dist .env
