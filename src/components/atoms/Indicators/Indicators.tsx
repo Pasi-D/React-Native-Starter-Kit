@@ -4,9 +4,10 @@
 
 import React, { FC } from "react";
 import { ActivityIndicator, View } from "react-native";
-import useStyles from "./Indicators.style";
 
 import { useThemeContext } from "themes";
+
+import useStyles from "./Indicators.style";
 
 interface IProgressIndicatorProps {}
 

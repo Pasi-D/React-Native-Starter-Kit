@@ -3,9 +3,10 @@
  */
 
 import React, { FC } from "react";
-import { ReloadInstructions } from "react-native/Libraries/NewAppScreen";
+
 import { createStackNavigator } from "@react-navigation/stack";
 import { RootStackNavParamList } from "navigation/@types";
+import { ReloadInstructions } from "react-native/Libraries/NewAppScreen";
 
 const RootStack = createStackNavigator<RootStackNavParamList>();
 
