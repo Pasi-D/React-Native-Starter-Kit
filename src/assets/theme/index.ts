@@ -16,6 +16,7 @@ interface IExtendedThemeButtonProps extends Partial<ButtonProps> {
 
 interface IExtendedThemeColorProps extends RecursivePartial<Colors> {
     readonly darkBg: string;
+    readonly startupBGPrimary: string;
 }
 
 export interface Theme extends Partial<FullTheme> {
@@ -37,6 +38,7 @@ const theme: Theme = {
     },
     colors: {
         darkBg: "#0F0F0F",
+        startupBGPrimary: "#062E58",
     },
 };
 
