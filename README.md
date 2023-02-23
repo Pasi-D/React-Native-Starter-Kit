@@ -49,8 +49,8 @@ A react native starter kit build with [React Native Elements](https://reactnativ
     💡<span style="color:yellow; font-style: italic;">
     You can use <a :href="https://sdkman.io/">sdkman</a> to install and manage your Java version(s).
     </span>
-    
-    <span style="color:yellow; font-style: italic;">Via `sdk env` command you can switch to the target Java version.</span>
+  
+    <span style="color:yellow; font-style: italic;">If you're using <a :href="https://sdkman.io/">sdkman</a> simply invoke `sdk env` command to switch into the required java versions.</span>
 
 
 ### Android development environment
